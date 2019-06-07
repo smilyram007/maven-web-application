@@ -87,12 +87,17 @@
 	</dependencies>
 	
 	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>MURUGAN PIPELINE PROJECT</name>
-	      <url>http://127.0.1.1:8081/repository/murugan_pipeline_SNAPSHOT//</url>
-	    </repository>
-	    	</distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>MURUGAN_PIPELINE-releases</name>
+        <url>http://127.0.1.1:8081/artifactory/MURUGAN-PIPELINE</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>MURUGAN_PIPELINE-snapshots</name>
+        <url>http://127.0.1.1:8081/artifactory/MURUGAN-PIPELINE</url>
+    </snapshotRepository>
+</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
