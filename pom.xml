@@ -88,12 +88,12 @@
 	
 	<distributionManagement>
     <repository>
-        <id>jfrog</id>
+        <id>central</id>
         <name>MURUGAN_PIPELINE-releases</name>
         <url>http://127.0.1.1:8081/artifactory/MURUGAN-PIPELINE</url>
     </repository>
     <snapshotRepository>
-        <id>jfrog</id>
+        <id>snapshots</id>
         <name>MURUGAN_PIPELINE-snapshots</name>
         <url>http://127.0.1.1:8081/artifactory/MURUGAN-PIPELINE</url>
     </snapshotRepository>
