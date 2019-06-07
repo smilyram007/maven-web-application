@@ -86,15 +86,14 @@
 
 	</dependencies>
 	
-	<distributionManagement>
-		<id>jfrog</id>
+<distributionManagement>
     <repository>
-        <id>central</id>
+        <id>jfrog</id>
         <name>MURUGAN_PIPELINE-releases</name>
         <url>http://127.0.1.1:8081/artifactory/MURUGAN-PIPELINE</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>jfrog</id>
         <name>MURUGAN_PIPELINE-snapshots</name>
         <url>http://127.0.1.1:8081/artifactory/MURUGAN-PIPELINE</url>
     </snapshotRepository>
