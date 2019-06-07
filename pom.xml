@@ -89,15 +89,10 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.126.101.27:9980/mithuntechnologies/repository/flipkart-release/</url>
+	      <name>MURUGAN PIPELINE PROJECT</name>
+	      <url>http://127.0.1.1:8081/repository/murugan_pipeline_SNAPSHOT//</url>
 	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.126.101.27:9980/mithuntechnologies/repository/flipkart-snapshot/</url>
-	    </snapshotRepository>
-	</distributionManagement>
+	    	</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
