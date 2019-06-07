@@ -87,6 +87,7 @@
 	</dependencies>
 	
 	<distributionManagement>
+		<id>jfrog</id>
     <repository>
         <id>central</id>
         <name>MURUGAN_PIPELINE-releases</name>
